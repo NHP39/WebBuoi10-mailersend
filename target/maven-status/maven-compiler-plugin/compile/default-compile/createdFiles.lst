@@ -1,0 +1,5 @@
+murach\business\User.class
+murach\util\MailUtilMailerSend.class
+murach\email\EmailListServlet.class
+com\mycompany\sendermail\JakartaRestConfiguration.class
+com\mycompany\sendermail\resources\JakartaEE11Resource.class
