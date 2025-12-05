@@ -20,10 +20,6 @@ public class MailUtilMailerSend {
         String apiKey = System.getenv("MAILERSEND_API_KEY");
         
         if (apiKey == null || apiKey.isBlank()) {
-            apiKey = System.getProperty("MAILERSEND_API_KEY");
-        }
-        
-        if (apiKey == null || apiKey.isBlank()) {
             throw new MessagingException("API key not found on Render");
         }
         

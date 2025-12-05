@@ -47,8 +47,7 @@ public class EmailListServlet extends HttpServlet {
                 "Thanks for joining our email list. We'll make sure to send " +
                 "you announcements about new products and promotions.\n" +
                 "Have a great day and thanks again!\n\n" +
-                "Kelly Slivkoff\n" +
-                "Mike Murach & Associates";
+                "Nguyen Phuc\n";
             boolean isBodyHTML = false;
 
             try
